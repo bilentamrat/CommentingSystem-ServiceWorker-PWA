@@ -1,0 +1,24 @@
+{
+  "name": "comment-system",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "i": "^0.3.7",
+    "npm": "^8.18.0",
+    "vite": "^3.0.7",
+    "vite-plugin-pwa": "^0.12.3"
+  },
+  "dependencies": {
+    "idb": "^7.0.2",
+    "workbox-precaching": "^6.5.4",
+    "workbox-recipes": "^6.5.4",
+    "workbox-routing": "^6.5.4",
+    "workbox-strategies": "^6.5.4"
+  }
+}
